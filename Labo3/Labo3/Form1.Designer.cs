@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -51,12 +52,39 @@
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
+=======
+            this.button1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(460, 211);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(188, 68);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Esto lo escribio santiago";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+>>>>>>> 55ec7f8f708841f21a75956f39ec26b781473a54
 
         }
 
         #endregion
 
+<<<<<<< HEAD
         private System.Windows.Forms.Label label1;
+=======
+        private System.Windows.Forms.Button button1;
+>>>>>>> 55ec7f8f708841f21a75956f39ec26b781473a54
     }
 }
 
