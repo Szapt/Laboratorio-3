@@ -21,5 +21,10 @@ namespace Labo3
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //Aqui estuvo santiango
+        }
     }
 }
